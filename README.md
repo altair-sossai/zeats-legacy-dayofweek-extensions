@@ -6,9 +6,9 @@
 
 # zeats-legacy-dayofweek-extensions
 
-Extensions to solve common problems when using Bitmap
+Extensions to solve common problems when using DayOfWeek
 
-[![Build Status](https://dev.azure.com/zeats/Legacy/_apis/build/status/zeats-legacy-dayofweek-extensions?branchName=master)](https://dev.azure.com/zeats/Legacy/_build/latest?definitionId=21&branchName=master)
+[![Build Status](https://dev.azure.com/zeats/Legacy/_apis/build/status/zeats-legacy-dayofweek-extensions?branchName=master)](https://dev.azure.com/zeats/Legacy/_build/latest?definitionId=25&branchName=master)
 [![NuGet](https://img.shields.io/nuget/v/Zeats.Legacy.DayOfWeekExtensions.svg)](https://www.nuget.org/packages/Zeats.Legacy.DayOfWeekExtensions)
 
 ## Installation
@@ -19,9 +19,10 @@ Install-Package Zeats.Legacy.DayOfWeekExtensions
 
 ## Extensions
 
-### Bitmap.ToImageSource()
-Cast a Bitmap object to a ImageSource object
+### DayOfWeek.DayName()
+Return Day name
 ```c#
-bitmap.ToImageSource() /* return new instance of ImageSource */
+DayOfWeek.Tuesday.DayName() /* return "Tuesday" - "en-us" */
+DayOfWeek.Tuesday.DayName() /* return "Terça-feira" - "pt-br" */
 ```
 ---
