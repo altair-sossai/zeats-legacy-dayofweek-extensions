@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2CD32378-C47E-4CB3-9848-9BEDB0C0B4FC}</ProjectGuid>
+    <ProjectGuid>{2D79FE4C-4AF3-4F6C-9D66-02F1816BE887}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zeats.Legacy.DayOfWeekExtensions</RootNamespace>
     <AssemblyName>Zeats.Legacy.DayOfWeekExtensions</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="Zeats.Legacy.StringExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Zeats.Legacy.StringExtensions.1.0.0.17\lib\net45\Zeats.Legacy.StringExtensions.dll</HintPath>
     </Reference>
